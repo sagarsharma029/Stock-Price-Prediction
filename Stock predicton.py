@@ -18,7 +18,7 @@ chart to show history of stock price-
 plt.figure(figsize=(16,8))
 plt.title('Closing price')
 plt.xlabel('Date', fontsize = 18)
-plt.ylabel('Close Price (₹)', fontsize = 18)
+plt.ylabel('Close Price', fontsize = 18)
 plt.plot(df['Close'])
 """
 
