@@ -14,7 +14,7 @@ df = df.iloc[::-1].reset_index(drop=True)'''
 df = pd.read_csv('TSLA.csv')
 
 """
-chart to show history of stock price-
+#chart to show history of stock price-
 plt.figure(figsize=(16,8))
 plt.title('Closing price')
 plt.xlabel('Date', fontsize = 18)
