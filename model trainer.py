@@ -42,6 +42,8 @@ model.add(Dense(1))
 
 #training the LSTM RNN
 model.compile(optimizer = 'Adam', loss = 'mean_squared_error')
+#epochs are number of times you want to train your network.
+#more epochs means more training time but higher acuuracy(mostly).
 model.fit(x_train, y_train,batch_size = 1, epochs = 10)
 
 #saving model and weights for future use
