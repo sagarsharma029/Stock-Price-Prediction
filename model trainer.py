@@ -6,9 +6,10 @@ import numpy as np
 import math
 import pandas as pd
 
-#df = pd.read_csv('TATA.csv')
-#df = df.iloc[::-1].reset_index(drop=True)
-
+'''
+df = pd.read_csv('TATA.csv')
+df = df.iloc[::-1].reset_index(drop=True)
+'''
 #df = pd.read_csv('GOOGL.csv')
 
 df = pd.read_csv('TSLA.csv')
